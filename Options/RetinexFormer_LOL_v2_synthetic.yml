@@ -10,8 +10,8 @@ datasets:
   train:
     name: TrainSet
     type: Dataset_PairedImage
-    dataroot_gt: data/LOLv2/Synthetic/Train/Normal
-    dataroot_lq: data/LOLv2/Synthetic/Train/Low
+    dataroot_gt: /home/user/madhurjya_workspace/Ratinexformer/LOLv2/Synthetic/Train/Normal
+    dataroot_lq: /home/user/madhurjya_workspace/Ratinexformer/LOLv2/Synthetic/Train/Low
     geometric_augs: true
 
     filename_tmpl: '{}'
